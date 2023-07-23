@@ -1,0 +1,17 @@
+package kiransai;
+import java.util.Scanner;
+public class vardhan {
+public static void main(String[] args) {
+	Scanner scan=new Scanner(System.in);
+	int i=1;
+    boolean board=true;
+	do
+	{	
+	System.out.println("KodMan read page"+" "+i);
+	i++;
+	System.out.println("do you want continus...?");
+    board=scan.nextBoolean();
+	}while(board);
+	System.out.println("board");
+}
+}

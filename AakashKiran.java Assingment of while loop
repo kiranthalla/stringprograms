@@ -1,0 +1,26 @@
+package kiransai;
+
+import java.util.Scanner;
+
+public class AakashKiran {
+public static void main(String[] args) {
+  Scanner scan=new Scanner(System.in);
+  int n=scan.nextInt();
+  int i=4;
+	while(i>n)
+	{
+		System.out.println("condition is right");
+		i--;
+	}
+	while(i<n)
+	{
+	    System.out.println("i am kiran");
+	    i++;
+	}
+   while(i==n)
+	{
+	    System.out.println("i am bad boy");
+	    i++;
+	}
+ }
+}

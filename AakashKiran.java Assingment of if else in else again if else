@@ -1,0 +1,25 @@
+package kiransai;
+
+import java.util.Scanner;
+
+public class AakashKiran {
+public static void main(String[] args) {
+  Scanner scan=new Scanner(System.in);
+  int i=scan.nextInt();
+	if(i>7)
+	{
+		System.out.println("condition is right");
+	}
+			else
+			{
+	if(i<=4)
+	{
+	    System.out.println("i am kiran");
+	}
+		   else
+		   {
+		   	System.out.println("i am bad boy");
+		   }
+	}
+}
+}
